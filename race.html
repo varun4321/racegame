@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>racecar_project</title>
+    <link rel="stylesheet" href="race.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="race.js" ></script>
+</head>
+<body id="racecar">
+    <!-- <script
+    src="https://code.jquery.com/jquery-3.7.0.js"
+    integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    <!-- crossorigin="anonymous"></script> -->
+    <!-- <script src="jquery.js"></script>
+    <script src="race.js" >
+    </script> --> -->
+    <h1>Random Racing</h1>
+    <input type="button" value="race!" id="go" title="Click me for a Race">
+    <input type="button"  value="reset" id="reset">
+    
+    <div id="racetrack">
+        <img src="redcar.png" alt="car1" id="car1" class="car" title="I AM CAR1!">
+        <img src="redcar.png" alt="car2" id="car2" class="car" title="I AM CAR2!">
+    </div>
+    <div id="raceinfocontainer" class="clearfix">
+        <h2>Results!</h2>
+        <div id="raceinfo1" class="raceinfo">car1 <span></span></div>
+        <div id="raceinfo2" class="raceinfo">car2 <span></span></div>
+    </div>
+</body>
+</html>
